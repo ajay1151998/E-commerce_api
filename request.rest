@@ -1,0 +1,22 @@
+//create products
+POST http://localhost:8000/products/create
+Content-Type: application/json
+
+{
+    "name":"",
+    "quantity":""
+}
+
+###
+//get all products
+GET http://localhost:8000/products
+
+###
+
+//delete product
+DELETE http://localhost:8000/products/
+
+
+//Update product quantity
+###
+POST http://localhost:8000/products/62f94cd0c6888c87bbd0f16d/update_quantity/5
