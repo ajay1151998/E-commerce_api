@@ -25,6 +25,15 @@ FOLDER STRUCTURES 📁
       -- > package.json
       -- > request.rest
 
+Description :
+
+We can create Product.
+
+We can delete Product.
+
+We can view Products
+
+We can update product by its quantity (increase/ decrease)
 
 
 
